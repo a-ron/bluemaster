@@ -1,0 +1,1508 @@
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+    outline:0;
+}
+.wrapper{
+    background-image:url("../images/bg-e.png");
+    background-repeat: no-repeat;
+    background-color:#333949;
+    width: 1100px;
+    height: auto;
+    margin:0 auto;
+    overflow:hidden;
+}
+.nevbar-top{
+    background:url("../images/topbar-effect.png")no-repeat;
+    width: 100%;
+    height:52px;
+    display: inline-block;
+}
+.header-logo-rs{
+    display: none;
+}
+.nevbar-top-div{
+    width: 87%;
+    height:auto;
+    margin:0 auto;
+    padding:0 15px;
+    box-sizing: border-box;
+}
+.nevbar-left{
+    width:253px;
+    height: auto;
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+.nevbar-left ul{
+    list-style-type: none;
+    margin:15px 0;
+    padding:0;
+}
+.nevbar-left ul li{
+    color:#6a87a3;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    display: inline;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nevbar-left ul li a{
+    text-decoration: none;
+    color:inherit;
+    border-right:1px solid #485766;
+    padding-right:5px;
+}
+.nevbar-left ul li a:hover{
+    color:#ffffff;
+}
+.nevbar-left ul li:first-child{
+    color:#485766;
+}
+.nevbar-left ul li:first-child{
+    border-right:none;
+}
+.nevbar-B-R{
+    border-right:none !important;
+}
+/*.nevbar-left ul li:last-child{
+    border-right:none;
+}*/
+
+.nevbar-right{
+    width: 286px;
+    height: 30px;
+    margin:10px 0;
+    float:right;
+}
+.nevbar-ftb{
+    width: 70px;
+    height:auto;
+    display: inline-block;
+    margin: 0;
+}
+.nevbar-ftb-b{
+    background:url("../images/blueMaster-all.png") -1133px -4px no-repeat;
+    width: 16px;
+    height: 16px;
+    padding:5px;
+    margin:7px 3px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.nevbar-ftb-f{
+    background:url("../images/blueMaster-all.png")-1150px -5px no-repeat;
+    width: 16px;
+    height: 16px;
+    padding:5px;
+    margin:7px 3px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.nevbar-ftb-t{
+    background:url("../images/blueMaster-all.png")-1167px -5px no-repeat;
+    width: 16px;
+    height: 16px;
+    padding:5px;
+    margin:7px 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.search{
+    background-color:#111213;
+    border:none;
+    color:#ffffff;
+    width: 190px;
+    height: 28px;
+    font-size: 11px;
+    padding-left:15px;
+    font-family:Verdana, Geneva, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 12px;
+    float:right;
+    border-bottom:1px solid #38444f;;
+}
+.main-div{
+    width:87%;
+    height:auto;
+    margin:0 auto;
+    padding:0 15px;
+    box-sizing: border-box;
+}
+.header{
+    height: auto /*60px*/;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:27px;
+}
+.header-logo{
+    background:url("../images/blueMaster-all.png") -2px -2px no-repeat;
+    width: 273px;
+    height: 57px;
+    display: inline-block;
+    vertical-align: top;
+    cursor:pointer;
+}
+.header-menu{
+    width: auto/*442px*/;
+    height: auto;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+}
+.header-menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.header-menu ul li{
+    color:#ffffff;
+    font:18px arial-bold;
+    line-height: 1.4em;
+    margin:0;
+    padding:14px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.header-menu ul li a {
+    color:inherit;
+    text-decoration: none;
+}
+.header-menu ul li:hover{
+    background-color: #16191f;
+    border-radius: 8px;
+    background-size: 38px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+@font-face{
+    font-family:arial-bold;
+    src:url("../fonts/arial-bold.ttf")format("truetype");
+}
+@font-face{
+    font-family:arial-Regular;
+    src:url("../fonts/Arial-Regular.ttf")format("truetype");
+}
+@font-face{
+    font-family:Verdana-regular;
+    src:url("../fonts/Verdana-regular.ttf")format("truetype");
+}
+
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+.banner{
+    background-color:#ffffff;
+    width: 100%;
+    height: 340px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:25px;
+}
+.banner-img{
+    background-image:url("../images/banner.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 322px;
+    width: 98%;
+    margin:10px auto;
+}
+.banner-shadow{
+    background-image:url("../images/banner-shadow.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 37px;
+    margin:0 auto;
+}
+.banner-shape{
+    width: 100px;
+    height: auto;
+    margin:0 auto;
+}
+.banner-shape-blue{
+    background:url("../images/blueMaster-all.png")-986px -7px no-repeat;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    margin:10px 1px;
+    box-sizing: border-box;
+}
+.banner-shape1{
+    background:url("../images/blueMaster-all.png")-1010px -6px no-repeat;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    margin:10px 1px;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("../images/1st-shadow.png");
+    background-repeat: repeat;
+    width: 100%;
+    height:auto;
+    display: inline-block;
+    vertical-align:top;
+    margin-top:8px;
+}
+.content{
+    background-image:url("../images/1st-shadow.png");
+    background-repeat: repeat;
+    width:30%;
+    height:auto;
+    margin: 20px 0 20px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont{
+    margin:0;
+    padding:15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.cont-button{
+    background-image: url("../images/cont.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 46px;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont1-ipad{
+    background: url("../images/blueMaster-all.png")-639px -11px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: top;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;
+    margin:10px 15px 10px 10px;
+}
+.cont-blog-L{
+    background: url("../images/blueMaster-all.png")-584px -4px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: top;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;
+    margin:10px 15px 10px 10px;
+}
+.cont-tuch-logo{
+    background: url("../images/blueMaster-all.png")-670px -11px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;
+    margin:10px 15px 10px 10px;
+}
+.cont-button h2{
+    color:#ffffff;
+    font: 20px arial-bold;
+    line-height: 1.3em;
+    text-align: left;
+    padding:10px;
+    margin:0;
+    box-sizing: border-box;
+}
+.cont1-banner{
+    background-image: url("../images/content-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 86px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+.cont2-banner{
+    background-image: url("../images/blog.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 86px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+.cont h3{
+    color:#ffffff;
+    font:18px arial-bold;
+    line-height: 1.5em;
+    margin:0;
+    padding-top:20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.cont h4{
+    color:#6a7796;
+    font:14px arial-Regular;
+    line-height: 1.4em;
+    margin-top:27px;
+    margin-bottom:0;
+    padding:0;
+}
+.cont h5{
+    color:#6a7796;
+    font:14px arial-Regular;
+    line-height: 1.4em;
+    margin:0;
+    padding:0;
+}
+.cont h6{
+    color:#6a7796;
+    font:14px arial-Regular;
+    line-height: 1.4em;
+    margin-top:15px;
+    margin-bottom:0;
+    padding:0;
+}
+.learn-button{
+    background-color:#11719f;
+    border:none;
+    color:#ffffff;
+    font:12px arial-bold;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    margin-top:15px;
+    vertical-align: top;
+    cursor:pointer;
+}
+.comments-button{
+    background-color:#11719f;
+    border:none;
+    color:#ffffff;
+    font:12px arial-bold;
+    text-align: center;
+    width: 103px;
+    height: 40px;
+    display: inline-block;
+    margin:10px 10px 0 0;
+    vertical-align: top;
+    cursor:pointer;
+}
+.read-more-button{
+    background-color:#11719f;
+    border:none;
+    color:#ffffff;
+    font:12px arial-bold;
+    text-align: center;
+    width: 87px;
+    height: 40px;
+    display: inline-block;
+    margin:10px 0 0 0;
+    vertical-align: top;
+    cursor:pointer;
+}
+.cont3{
+    margin:0;
+    padding:15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 230px;
+    display: inline-block;
+}
+.PHS{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin:0  0 20px 0;
+}
+.ph{
+    background:url("../images/blueMaster-all.png")-774px -90px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align:top;
+    margin:0 10px 0 0;
+}
+.ph2{
+    background:url("../images/blueMaster-all.png")-817px -96px;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align:top;
+    margin:6px;
+}
+.PHS-right{
+    width: 80%;
+    height:auto;
+    display: inline;
+    float: right;
+    margin:0;
+}
+.PHS h2{
+    color:#ffffff;
+    font:14px arial-bold;
+    line-height:0.5em;
+    display: inline;
+    margin:0;
+    padding:0;
+}
+.PHS h3{
+    color:#6a7796;
+    font:14px arial-Regular;
+    line-height:0.9em;
+    margin:0;
+    padding:0;
+}
+.email{
+    background:url("../images/blueMaster-all.png")-857px -94px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align:top;
+    margin: 0 10px 0 0;
+}
+.skype{
+    background:url("../images/blueMaster-all.png")-900px -95px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align:top;
+    margin: 0 10px 0 0;
+}
+.content-bottom{
+    background-image: url("../images/1st-shadow.png");
+    background-repeat: repeat;
+    width:100%;
+    height:95px;
+    border-top:10px solid #232631;
+    display: inline-block;
+    vertical-align: top;
+}
+.content-bottom-cont3{
+    padding:15px;
+    margin:0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.tfiYouT{
+    width: 100%;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    vertical-align: top;
+}
+.tu{
+    background:url("../images/blueMaster-all.png")-350px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 5px 5px 0;
+}
+.fb{
+    background:url("../images/blueMaster-all.png")-384px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.dd{
+    background:url("../images/blueMaster-all.png")-417px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.in{
+    background:url("../images/blueMaster-all.png")-450px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.t{
+    background:url("../images/blueMaster-all.png")-483px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.youT{
+    background:url("../images/blueMaster-all.png")-515px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 0 5px 0;
+}
+/*tu fb dd in t youT*/
+.footer{
+    background-color: #0f131f;
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+}
+.footer-M{
+    width: 87%;
+    height: auto;
+    margin: 0 auto;
+}
+.footer-M-con-1{
+    width: 34%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding:10px;
+    box-sizing: border-box;
+}
+.footer-M-con-AC{
+     width: 49%;
+     height: auto;
+     display: inline-block;
+    vertical-align: top;
+     margin: 0;
+     padding:10px;
+     box-sizing: border-box;
+ }
+.footer-h2{
+    color:#8c94ac;
+    font:22px arial-bold;
+    line-height: 1.9em;
+    text-align: center;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+}
+.footer-M-con-AC ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.footer-M-con-AC ul li{
+    color:#606574;
+    font:12px Verdana, Geneva, sans-serif;
+    line-height: 1.6em;
+    margin:0;
+    padding:0;
+    text-align: left;
+}
+.footer-M-con-AC ul li a{
+    color:inherit;
+    text-decoration: none;
+}
+.footer-M-con-AC ul li a:hover{
+    color:#ffffff;
+}
+.footer-M-con-2{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.footer-M-con-3{
+    width: 34%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.footer-gallery{
+    width: 100%;
+    height: auto;
+    padding:0;
+    margin:0;
+    display: inline-block;
+    vertical-align: top;
+}
+.gallery-shadow{
+    background: url("../images/blueMaster-all.png")-6px -204px no-repeat;
+    width: 54px;
+    height: 51px;
+    display: inline-block;
+    vertical-align: top;
+    margin:4px;
+}
+.gallery-img1{
+    background: url("../images/blueMaster-all.png") -7px -153px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img2{
+    background: url("../images/blueMaster-all.png")-64px -153px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img3{
+    background: url("../images/blueMaster-all.png")-117px -153px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img4{
+    background: url("../images/blueMaster-all.png")-173px -153px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img5{
+    background: url("../images/blueMaster-all.png")-231px -156px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img6{
+    background: url("../images/blueMaster-all.png")-281px -163px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img7{
+    background: url("../images/blueMaster-all.png")-331px -159px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.gallery-img8{
+    background: url("../images/blueMaster-all.png")-381px -159px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 41px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+.bird{
+    background: url("../images/blueMaster-all.png")-702px -8px;
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin:10px 20px 0 0;
+}
+.bird-text{
+    background: url("../images/footer-text.png")no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 25px 15px 0 15px;
+    box-sizing: border-box;
+}
+.bird-text h2{
+    color:#417893;
+    font:12px Verdana, Geneva, sans-serif;
+    line-height: 2.1em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.bird-text h3{
+    color:#417893;
+    font:11px Verdana, Geneva, sans-serif;
+    line-height: 1.9em;
+    text-align: left;
+    margin: 0;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.footer-border{
+    background-color: #040507;
+    height: 60px;
+    width: 100%;
+    border-top:1px solid #181f31;
+}
+.footer-border-div{
+    width: 87%;
+    height:auto;
+    display: block;
+    margin:0 auto;
+}
+.footer-border-div h5{
+    color:#6a7796;
+    font:11px Verdana, Geneva, sans-serif;
+    text-align: left;
+    line-height: 1.9em;
+    padding:20px 20px 10px 20px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.footer-border-con{
+    width: auto;
+    float:right;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-border-con ul{
+    list-style-type: none;
+    margin:0;
+    padding:5px 20px 0 20px;
+    box-sizing: border-box;
+}
+.footer-border-con ul li{
+    color:#6a7796;
+    font:11px Verdana-regular;
+    line-height: 1.6em;
+    text-align: left;
+    margin:0;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-border-con ul li a{
+    text-decoration: none;
+    color: inherit;
+    padding-right:5px;
+    border-right:1px solid #6a7796;
+}
+.footer-border-con ul li a:hover{
+    color:#ffffff;
+}
+.footer-border-con ul li:last-child{
+    border:none;
+}
+.border-li{
+    border-right:none !important;
+}
+
+/*################################### Page 2 start ##########################################*/
+.containerP2{
+    background-image: url("../images/1st-shadow.png");
+    background-repeat: repeat;
+    width: 84%;
+    height:auto;
+    margin:10px auto;
+    padding:15px 15px;
+    box-sizing: border-box;
+}
+.contentP2{
+    background-color:#ffffff;
+    width: 100%;
+    height: auto;
+    margin:0;
+}
+.content-L{
+    width: 70%;
+    height: auto;
+    margin:0;
+    padding:15px 11px 15px 11px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.content-R{
+    background-color:#eef0f5;
+    width: 30%;
+    height:auto;
+    float:right;
+    margin:0;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.about{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom:1px #84a1af dotted;
+}
+.cont1-ipad{
+    background: url("../images/blueMaster-all.png")-639px -11px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: top;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;
+    margin:0 10px 10px 0;
+}
+.about h2{
+    color:#4d5467;
+    font: 22px arial-bold;
+    line-height: 1.3em;
+    text-align: left;
+    padding:0 10px 0 10px;
+    margin:0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url("../images/banner-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 99%;
+    height: 296px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:10px;
+}
+.banner-img{
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:5px auto;
+    width: 98%;
+    height: 285px;
+}
+.content-L p{
+    color:#444955;
+    font:12px Verdana-regular;
+    line-height:1.5em;
+    padding:0;
+    margin-top:10px;
+    display:inline-block;
+    vertical-align: top;
+}
+.content-L h1{
+    color:#788093;
+    background-color:#eef0f5;
+    font:12px Verdana-Bold-Italic;
+    line-height:1.5em;
+    text-align: left;
+    padding:20px;
+    box-sizing: border-box;
+    border:1px solid #ced1da;
+}
+.content-L h1:hover{
+    background-color:#dfe3ec;
+    cursor:pointer;
+}
+.content-R-bar{
+    background:url("../images/r-ber_03.png")no-repeat;
+    width: 100%;
+    height: 48px;
+    padding:10px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont-blog-R{
+    background: url("../images/blueMaster-all.png")-584px -4px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: top;
+    float:left;
+    margin:0;
+    padding-right:10px;
+}
+.content-R-bar h2{
+    color:#ffffff;
+    font: 20px arial-bold;
+    line-height: 1.3em;
+    text-align: left;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.content-R-text{
+    width: 85%;
+    height: auto;
+    padding:20px;
+    margin:0 auto;
+}
+.content-R-bodyDiv{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin:0;
+    padding:0;
+}
+.browser{
+    background: url("../images/browser.png") no-repeat;
+    width:100%;
+    height: 82px;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.content-R-text h2{
+    color:#444955;
+    font:12px Verdana-regular;
+    line-height: 1.7em;
+    text-align: left;
+    margin:0;
+    padding-top:15px;
+}
+.menu-logo{
+    background: url("../images/blueMaster-all.png")-1056px -93px ;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: top;
+    float:left;
+    margin:0;
+    padding:10px 10px 0 0;
+}
+.textLogo{
+    background: url("../images/blueMaster-all.png") -1016px -93px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: top;
+    padding:10px 10px 0 0;
+    float:left;
+}
+.list-div{
+    width: 100%;
+    height: 213px;
+    padding:0;
+    display: inline-block;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    margin-top:10px;
+}
+.list-div ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.list-div ul li{
+    background-color:#dce0e9;
+    color:#747c93;
+    text-align: left;
+    font:14px Verdana-Bold;
+    line-height: 0.9em;
+    height: 40px;
+    width: 100%;
+    margin-bottom:5px;
+    padding:15px 10px;
+    box-sizing: border-box;
+}
+.list-div ul li:hover{
+    background-color:#d0d4de;
+}
+.list-div ul li a{
+    color:inherit;
+    text-decoration: none;
+}
+.list-div ul li a:hover{
+    color:#444d68;
+}
+.right-errow{
+    background: url("../images/blueMaster-all.png")-1149px -98px no-repeat;
+    width: 6px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: top;
+    float:right;
+    padding:7px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+.content-R-bottom{
+    width: 100%;
+    height: auto;
+    padding:0 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.content-R-bottom ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.content-R-bottom ul li{
+    color:#747c93;
+    text-align: left;
+    font:14px Verdana-Bold;
+    line-height: 0.9em;
+    margin:0;
+    padding:10px 0;
+    box-sizing: border-box;
+
+}
+.content-R-bottom ul li a{
+    text-decoration: none;
+    color:inherit;
+}
+.content-R-bottom ul li a:hover{
+    color:#444d68;
+}
+.numberP2{
+    float:right;
+    color:#747c93;
+    text-align: right;
+    font:14px Verdana-Bold;
+    line-height: 0.9em;
+    margin:0;
+    padding:0;
+}
+.network-connect{
+    padding:20px 0 10px 0;
+    margin:0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.tfiYouT{
+    width: 100%;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    vertical-align: top;
+}
+.tu{
+    background:url("../images/blueMaster-all.png")-350px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 5px 5px 0;
+}
+.fb{
+    background:url("../images/blueMaster-all.png")-384px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.dd{
+    background:url("../images/blueMaster-all.png")-417px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.in{
+    background:url("../images/blueMaster-all.png")-450px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.t{
+    background:url("../images/blueMaster-all.png")-483px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 7px 5px 0;
+}
+.youT{
+    background:url("../images/blueMaster-all.png")-515px -98px;
+    background-repeat:no-repeat;
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:5px 0 5px 0;
+}
+/*################################### Page 2 end ##########################################*/
+
+/*################################### Page 3 start ##########################################*/
+.containerP3{
+    background-image: url("../images/1st-shadow.png");
+    background-repeat: repeat;
+    width: 84%;
+    height:auto;
+    margin:10px auto;
+    padding:15px 15px;
+    box-sizing: border-box;
+}
+.contentP3{
+    background-color:#ffffff;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:15px;
+    box-sizing: border-box;
+}
+.cont-top{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont-top-L{
+    width: auto;
+    height: auto;
+    padding:5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont-top-R{
+    width:auto;
+    height: auto;
+    float:right;
+    padding:5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont-top-L-logo{
+    background:url("../images/blueMaster-all.png")-647px -227px no-repeat;
+    width: 23px;
+    height: 22px;
+    margin-right:10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.cont-top-L h1{
+    color:#4d5467;
+    font:22px arial-bold;
+    line-height:1.0em;
+    -ms-text-align-last: left;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding:0;
+    margin:0;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+@font-face{
+    font-family:arial-bold;
+    src:url("../fonts/arial-bold.ttf")format("truetype");
+}
+@font-face{
+    font-family:Verdana-Bold;
+    src:url("../fonts/Verdana Bold.ttf")format("truetype");
+}
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+.buttonP3{
+    background-color:#11719f;
+    width: 169px;
+    height: 32px;
+    margin-right:5px;
+    padding-left:12px;
+    box-sizing: border-box;
+    color:#ffffff;
+    font:14px arial-bold;
+    text-align: left;
+    border: none;
+    cursor:pointer;
+}
+.button-img{
+    background: url("../images/blueMaster-all.png")-678px -223px no-repeat;
+    width: 36px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:10px;
+    box-sizing: border-box;
+}
+.div-img{
+    width: 100%;
+    /*height: 175px;*/
+    margin:0 auto;
+    padding:0;
+    display:block;
+    vertical-align: top;
+}
+.img-backG{
+    background: url("../images/img-BG.png")no-repeat;
+    background-size: 100% 100%;
+    width: 198px;
+    height: 175px;
+    display: inline-block;
+    vertical-align: top;
+    margin:4px;
+    padding:0;
+}
+.img-backG:last-child{
+    margin-right:0;
+}
+.img1{
+    background: url("../images/blue1.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img2{
+    background: url("../images/blue2.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img3{
+    background: url("../images/blue3.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img4{
+    background: url("../images/blue4.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img5{
+    background: url("../images/blue5.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img6{
+    background: url("../images/blue6.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img7{
+    background: url("../images/blue7.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.img8{
+    background: url("../images/blue8.png")no-repeat;
+    background-size: 100% 100%;
+    width: 188px;
+    height: 166px;
+    margin:5px;
+    display:inline-block;
+    vertical-align: top;
+}
+.content-bottomP3{
+    background-color:#eef0f5;
+    width: 97%;
+    height: auto;
+    margin:0 auto;
+    padding:10px;
+    box-sizing: border-box;
+    border:1px solid #ced1da;
+}
+.content-bottom-div{
+    width: 67%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin:0;
+}
+.content-bottom-div3{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin:0;
+    float:right;
+}
+.content-bottom-div2{
+    width: 42%;
+    height: auto;
+    display:inline-block;
+    vertical-align: top;
+    margin:0;
+    float:right;
+}
+.content-bottom-div1{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin:0;
+}
+.previous-button{
+    color:#ffffff;
+    font:12px Verdana-Bold;
+    line-height:0.9em;
+    background-color: #4eabd7;
+    width: 133px;
+    height: 34px;
+    padding:10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    border:none;
+    cursor:pointer;
+}
+.next-page{
+    color:#ffffff;
+    font:12px Verdana-Bold;
+    line-height:0.9em;
+    background-color: #4eabd7;
+    text-align: left;
+    width: 104px;
+    height: 34px;
+    padding:10px 0 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    border:none;
+    float:right;
+    cursor:pointer;
+}
+.number-div{
+    width: auto;
+    height: auto;
+    display:inline-block;
+    margin:0;
+    box-sizing: border-box;
+}
+.number{
+    width: 35px;
+    height: 35px;
+    background-color:#4eabd7;
+    margin:5px 0;
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    color:#ffffff;
+    font:12px Verdana-Bold;
+    line-height: 0.9em;
+    text-align:center;
+    cursor:pointer;
+}
+.number:hover{
+    background-color:#11719f;
+}
+/*################################### Page 3 end ##########################################*/
+
+
+
+/*################################### Page 4 start ##########################################*/
+
+/*################################### Page 4 end ##########################################*/
+
+
+
+
+
+
+
+
+

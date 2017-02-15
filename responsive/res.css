@@ -1,0 +1,327 @@
+@media (max-width: 1100px){
+    .wrapper{
+        width: 100%;
+    }
+    .tu .fb .dd .in .t{
+        margin-right:5px;
+    }
+    .content-bottom{
+        height: auto;
+    }
+    .tfiYouT{
+        width: 100%;
+    }
+}
+/*############################################*/
+@media (max-width: 1080px){
+    .gallery-shadow{
+        margin:0;
+    }
+}
+/*############################################*/
+@media (max-width: 1050px){
+    .content{
+        height: auto;
+    }
+    .footer-M-con-AC{
+        width:100%;
+        display: block;
+    }
+
+}
+/*############################################*/
+@media (max-width: 960px){
+    .content:last-child{
+        display: block;
+        width: 95%;
+        margin-top:0;
+    }
+    .content{
+        width: 46%;
+    }
+    .cont3{
+        width: 65%;
+    }
+
+}
+/*############################################*/
+@media (max-width: 920px){
+    .footer-M-con-3{
+        width: 33%;
+    }
+    .footer-h2{
+        font:20px arial-bold;
+        line-height: 1.9em;
+    }
+}
+/*############################################*/
+@media (max-width: 890px) {
+    .content {
+        width: 45%;
+    }
+}
+/*############################################*/
+@media (max-width: 860px){
+    .header-menu ul li{
+        padding:10px;
+    }
+    .header-menu{
+        margin-top:5px;
+    }
+    .footer-border{
+        height: auto;
+    }
+    .footer-border-con{
+        float:none;
+    }
+    .footer-border-con ul li{
+        padding:10px 0;
+    }
+}
+/*############################################*/
+@media (max-width: 820px){
+    .header-menu{
+        float:none;
+        margin-top:10px;
+    }
+    .footer-h2{
+        font:19px arial-bold;
+        line-height: 1.9em;
+    }
+    .bird{
+        margin-right:5px;
+    }
+    .content {
+        width: 44%;
+    }
+}
+/*############################################*/
+@media (max-width: 740px){
+    .footer-M-con-1{
+     width: 40%;
+    }
+    .footer-M-con-2{
+        width: 50%;
+        margin:0 0 0 20px;
+    }
+    .footer-M-con-3{
+        width: 100%;
+    }
+    .bird{
+        margin-right:35px;
+    }
+}
+/*############################################*/
+@media (max-width: 670px){
+    .content{
+        display: block;
+        width: 93%;
+        margin:10px auto;
+    }
+    .content:last-child{
+        width: 93%;
+        margin-top:0;
+    }
+}
+/*############################################*/
+@media (max-width: 650px){
+    .nevbar-right{
+        float:none;
+    }
+    .bird{
+        margin-right:20px;
+    }
+}
+/*############################################*/
+@media (max-width: 502px){
+    .header-menu ul li{
+        padding:4px;
+        font:13px arial-bold;
+    }
+    .footer-M-con-1{
+        width: 100%;
+    }
+    .footer-M-con-2{
+        width: 100%;
+        margin:0;
+    }
+    .cont3{
+        width: 100%;
+    }
+}
+/*############################################*/
+@media (max-width: 353px){
+    .footer-border-div h5{
+        font:10px Verdana, Geneva, sans-serif;
+        line-height: 1.6em;
+    }
+    .footer-border-con ul li{
+        font:10px Verdana-regular;
+        line-height: 0.8em;
+        padding:5px 0;
+    }
+}
+/*############################################*/
+@media (max-width: 353px){
+    .header-logo{
+        display: none;
+    }
+    .header-logo-rs{
+        background:url("../images/blueMaster-all.png")-303px -3px no-repeat;
+        width: 240px;
+        height: 55px;
+        display: block;
+        vertical-align: top;
+        cursor:pointer;
+    }
+    .search{
+        width:auto;
+        float:none;
+    }
+    .header-menu ul li{
+        font:11px arial-bold;
+    }
+    .cont-button h2{
+        font: 18px arial-bold;
+        line-height: 1.3em;
+    }
+    .cont h3{
+        font:17px arial-bold;
+        line-height: 1.5em;
+    }
+    .bird{
+        margin-right:10px;
+    }
+    .ph{
+        margin-right:5px;
+    }
+    .tfiYouT{
+        width: 100%;
+    }
+    .footer-border-div h5{
+        padding-top:10px;
+        font:10px Verdana, Geneva, sans-serif;
+        line-height: 1.6em;
+    }
+    .footer-border-con ul li{
+        font:10px Verdana-regular;
+        line-height: 0.8em;
+        padding:5px 0;
+    }
+    .gallery-shadow{
+        margin:4px 0;
+    }
+
+}
+/*############################################*/
+@media (max-width: 335px){
+    .PHS-right{
+        width: 74%;
+    }
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Page 2 start $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+@media (max-width:920px){
+    .content-R-bar h2{
+        font: 18px arial-bold;
+        line-height: 1.3em;
+    }
+
+}
+@media (max-width:840px){
+    .content-R-bar h2{
+        font: 16px arial-bold;
+        line-height: 1.3em;
+    }
+}
+@media (max-width:790px) {
+    .content-R-bar h2 {
+        font: 14px arial-bold;
+        line-height: 1.3em;
+    }
+    .content-R-bottom ul li{
+        font:12px Verdana-Bold;
+        line-height: 0.9em;
+    }
+    .numberP2{
+        font:12px Verdana-Bold;
+        line-height: 0.9em;
+    }
+}
+@media (max-width:710px){
+    .content-L{
+        width: 100%;
+    }
+    .content-R{
+        width:100%;
+        float:none;
+    }
+}
+@media (max-width:645px){
+    .nevbar-right{
+        float:none;
+    }
+    .header{
+        margin-top:15px;
+    }
+}
+@media (max-width:505px) {
+    .tu {
+        margin-right:0;
+    }
+    .fb {
+        margin-right:0;
+    }
+    .dd {
+        margin-right:0;
+    }
+    .in {
+        margin-right:0;
+    }
+    .t {
+        margin-right:0;
+    }
+    .youT{
+        margin-right:0;
+    }
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Page 2 end $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Page 3 start $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+@media (max-width:1100px) {
+    .div-img{
+        text-align: center;
+    }
+    .img-backG{
+        margin:4px 0;
+    }
+}
+@media (max-width:510px) {
+    .cont-top {
+        padding: 0 0 10px 0;
+    }
+    .cont-top-L{
+        padding:5px 0;
+    }
+    .cont-top-R{
+        float:none;
+        margin-top:5px;
+    }
+}
+@media (max-width:350px) {
+    .gallery-shadow {
+        width: 53px;
+    }
+
+    .buttonP3 {
+        width: 147px;
+    }
+
+    .gallery {
+        padding: 0;
+    }
+
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Page 3 end $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
